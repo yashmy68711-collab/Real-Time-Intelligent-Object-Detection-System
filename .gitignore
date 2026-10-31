@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# IDE
+.vscode/
+
+# Model weights
+models/*.pt
+
+# Generated output
+outputs/images/*
+outputs/videos/*
+
+# Keep folders in Git
+!outputs/images/.gitkeep
+!outputs/videos/.gitkeep
+
+# Temporary files
+*.log
+.DS_Store
