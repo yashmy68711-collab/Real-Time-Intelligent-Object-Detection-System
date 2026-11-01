@@ -24,4 +24,33 @@
 - Git and GitHub
 
 ### Outcome
-Successfully configured the development environment and prepared the project for implementing an AI-powered object detection system.
+Successfully configured the development environment and prepared the project for implementing an AI-powered object detection system.## Day 2 — YOLO Fundamentals and Object Detection Experiments
+
+### Concepts Learned
+- Computer Vision
+- Object Detection
+- YOLO architecture and pretrained models
+- Bounding Boxes
+- Confidence Scores
+- Frames Per Second (FPS)
+
+### Practical Implementation
+- Loaded the pretrained YOLOv8n model.
+- Performed image-based object detection.
+- Extracted object classes and confidence scores.
+- Experimented with different confidence thresholds.
+- Observed how confidence thresholds affect detection results.
+
+### Confidence Threshold Experiments
+
+| Confidence Threshold | Detected Objects |
+|---|---:|
+| 0.25 | 6 |
+| 0.50 | 4 |
+| 0.75 | Experiment completed |
+
+### Outcome
+Successfully explored YOLO predictions and understood how confidence thresholds filter object detections.
+
+### Next Step
+Develop a flexible image detection system capable of processing multiple images.
