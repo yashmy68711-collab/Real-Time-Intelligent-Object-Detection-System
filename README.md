@@ -49,4 +49,10 @@ Successfully configured the development environment and prepared the project for
 | 0.50 | 4 |
 | 0.75 | Experiment completed |
 
+### Outcome
+Successfully explored YOLO predictions and understood how confidence thresholds filter object detections.
+
+### Next Step
+Develop a flexible image detection system capable of processing multiple images.
+
 
