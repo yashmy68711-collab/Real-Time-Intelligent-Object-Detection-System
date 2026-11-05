@@ -113,3 +113,57 @@ Outcome
 Successfully extended the object detection system from processing a single fixed image to automatically processing multiple images from a directory.
 Next Step
 Implement real-time object detection using a webcam.
+
+## Day 4 — Enhanced Image-Based Object Detection
+
+### Objectives
+- Allow users to select an image using its file path.
+- Detect objects in the selected image.
+- Extract object names and confidence scores.
+- Calculate bounding-box coordinates.
+- Count the total number of detected objects.
+- Save the detection results.
+
+### Practical Implementation
+- Updated the YOLO object detector.
+- Implemented user input for selecting an image.
+- Added image path validation.
+- Extracted object class names and confidence scores.
+- Extracted bounding-box coordinates (x1, y1, x2, y2).
+- Implemented total object counting.
+- Generated annotated images with bounding boxes.
+- Saved detection results automatically.
+
+### Technologies and Libraries
+- Python
+- OpenCV
+- Ultralytics YOLOv8
+- pathlib
+
+### Testing
+Tested the system using:
+- bus.jpg
+- test.jpg
+- zidane.jpg
+
+Example result from zidane.jpg:
+- Person: 83.60% confidence
+- Person: 81.90% confidence
+- Tie: 29.10% confidence
+- Total detected objects: 3
+
+### Output
+Detection images are saved in:
+
+`outputs/images/`
+
+Example:
+- detected_bus.jpg
+- detected_test.jpg
+- detected_zidane.jpg
+
+### Outcome
+Successfully developed an enhanced image-based object detection system that allows users to select images, identify objects, extract confidence scores and bounding-box coordinates, count detected objects, and save annotated results.
+
+### Next Step
+Implement real-time object detection using a webcam.
