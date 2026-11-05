@@ -49,8 +49,67 @@ Successfully configured the development environment and prepared the project for
 | 0.50 | 4 |
 | 0.75 | Experiment completed |
 
-### Outcome
-Successfully explored YOLO predictions and understood how confidence thresholds filter object detections.
+##Day 2 — YOLO Fundamentals and Confidence Threshold Experiments
+Concepts Learned
 
-### Next Step
-Develop a flexible image detection system capable of processing multiple images.
+    Computer Vision
+    Object Detection
+    YOLO (You Only Look Once)
+    Pretrained YOLO models
+    Bounding Boxes
+    Confidence Scores
+    Frames Per Second (FPS)
+
+Practical Implementation
+
+    Loaded the pretrained YOLOv8n model.
+    Performed image-based object detection.
+    Extracted object class names and confidence scores.
+    Generated bounding boxes around detected objects.
+    Experimented with different confidence thresholds.
+
+Confidence Threshold Experiments
+Confidence Threshold	Detected Objects
+0.25	6
+0.50	4
+0.75	Experiment completed
+Outcome
+
+Understood how YOLO identifies objects and how confidence thresholds filter detection predictions.
+
+##Day 3 — Multiple Image Object Detection
+
+Objectives
+Extend the system to process multiple images.
+Automatically identify images inside a directory.
+Perform object detection on each image.
+Save detection results separately.
+Practical Implementation
+Downloaded multiple test images.
+Implemented automatic image discovery using Python's pathlib.
+Added support for JPG, JPEG and PNG images.
+Loaded the YOLO model only once per execution.
+
+Processed images sequentially.
+Detected multiple objects in individual images.
+Generated bounding boxes and confidence scores.
+Saved each processed image separately.
+Technologies and Libraries
+
+Python
+OpenCV
+Ultralytics YOLOv8
+pathlib
+Output
+
+Detection results are saved inside:
+outputs/images/
+Example output filenames:
+detected_bus.jpg
+detected_test.jpg
+detected_zidane.jpg
+
+Outcome
+Successfully extended the object detection system from processing a single fixed image to automatically processing multiple images from a directory.
+Next Step
+Implement real-time object detection using a webcam.
