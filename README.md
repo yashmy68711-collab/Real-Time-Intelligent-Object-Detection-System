@@ -49,9 +49,31 @@ Successfully configured the development environment and prepared the project for
 | 0.50 | 4 |
 | 0.75 | Experiment completed |
 
+Day 2 — YOLO Fundamentals and Confidence Threshold Experiments
+Concepts Learned
 
+    Computer Vision
+    Object Detection
+    YOLO (You Only Look Once)
+    Pretrained YOLO models
+    Bounding Boxes
+    Confidence Scores
+    Frames Per Second (FPS)
 
-### Next Step
-Develop a flexible image detection system capable of processing multiple images.
+Practical Implementation
 
+    Loaded the pretrained YOLOv8n model.
+    Performed image-based object detection.
+    Extracted object class names and confidence scores.
+    Generated bounding boxes around detected objects.
+    Experimented with different confidence thresholds.
+
+Confidence Threshold Experiments
+Confidence Threshold	Detected Objects
+0.25	6
+0.50	4
+0.75	Experiment completed
+Outcome
+
+Understood how YOLO identifies objects and how confidence thresholds filter detection predictions.
 
