@@ -165,5 +165,3 @@ Example:
 ### Outcome
 Successfully developed an enhanced image-based object detection system that allows users to select images, identify objects, extract confidence scores and bounding-box coordinates, count detected objects, and save annotated results.
 
-### Next Step
-Implement real-time object detection using a webcam.
